@@ -7,7 +7,7 @@
     <groupId>me.jasperchasetoq</groupId>
     <artifactId>CompressionCraft</artifactId>
 
-    <version>UNOFFICIAL</version>
+    <version>Efina 1.0</version>
 
     <properties>
     <!-- UTF-8 is our standard encoding for source files -->
@@ -127,6 +127,11 @@
             <artifactId>bstats-bukkit</artifactId>
             <version>3.0.0</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.SlimeTraditionalTranslation</groupId>
+            <artifactId>dough</artifactId>
+            <version>7142669</version>
         </dependency>
     </dependencies>
 </project>

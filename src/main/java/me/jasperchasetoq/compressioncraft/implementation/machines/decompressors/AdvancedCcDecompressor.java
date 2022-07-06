@@ -90,7 +90,7 @@ public class AdvancedCcDecompressor extends AContainer implements RecipeDisplayI
         return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
     @Override
-    public String getInventoryTitle() {return "&6Advanced CC Decompressor";}
+    public String getInventoryTitle() {return "&6特規解壓縮器";}
     @Override
     public String getMachineIdentifier() {
         return "CC_DECOMPRESSOR_5";
