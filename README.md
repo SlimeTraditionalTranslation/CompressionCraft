@@ -13,5 +13,4 @@ CompressionCraft 使用黏液科技 RC-32+
 | 非官方繁體中文版 | 官方英文版 |
 | -------- | -------- |
 | 點下方圖片下載 | 點下方圖片下載 |
-| [![Build Status](https://xMikux.github.io/builds/SlimeTraditionalTranslation/CompressionCraft/master/badge.svg)](https://xMikux.github.io/builds/SlimeTraditionalTranslation/CompressionCraft/master) | [![Build Status](https://thebusybiscuit.github.io/builds/J3JasperChaseTOQ/CompressionCraft/master/badge.svg)](https://thebusybiscuit.github.io/builds/JasperChaseTOQ/CompressionCraft/master) |
-
+| [![Build Status](https://xMikux.github.io/builds/SlimeTraditionalTranslation/CompressionCraft/master/badge.svg)](https://xMikux.github.io/builds/SlimeTraditionalTranslation/CompressionCraft/master) | [![Build Status](https://thebusybiscuit.github.io/builds/JasperChaseTOQ/CompressionCraft/master/badge.svg)](https://thebusybiscuit.github.io/builds/JasperChaseTOQ/CompressionCraft/master) |
