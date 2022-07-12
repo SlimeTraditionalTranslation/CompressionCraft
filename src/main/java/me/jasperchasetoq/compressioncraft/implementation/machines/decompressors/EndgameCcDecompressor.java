@@ -92,7 +92,7 @@ public class EndgameCcDecompressor extends AContainer implements RecipeDisplayIt
         return new ItemStack(SlimefunItems.ELECTRIC_PRESS);
     }
     @Override
-    public String getInventoryTitle() {return "&4End-Game CC Decompressor";}
+    public String getInventoryTitle() {return "&4超特規解壓縮器";}
     @Override
     public String getMachineIdentifier() {
         return "CC_DECOMPRESSOR_6";

@@ -1,12 +1,12 @@
 package me.jasperchasetoq.compressioncraft;
 
+import io.github.bakedlibs.dough.updater.GitHubBuildsUpdater;
 import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.updater.GitHubBuildsUpdater;
 
 import me.jasperchasetoq.compressioncraft.setup.CompressionCraftItemsSetup;
 
-import org.bstats.bukkit.Metrics;
+//import org.bstats.bukkit.Metrics;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -26,11 +26,11 @@ public class CompressionCraft extends JavaPlugin implements SlimefunAddon {
             saveDefaultConfig();
         }
 
-        if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
-            new GitHubBuildsUpdater(this, getFile(), "JasperChaseTOQ/CompressionCraft/master").start();
+        if (getConfig().getBoolean("options.auto-update") && getDescription().getVersion().startsWith("EFI - ")) {
+            new GitHubBuildsUpdater(this, getFile(), "SlimeTraditionalTranslation/CompressionCraft/master").start();
 
-            int pluginId = 15648; // <-- Replace with the id of your plugin!
-            Metrics metrics = new Metrics(this, pluginId);
+            //int pluginId = 15648; // <-- Replace with the id of your plugin!
+            //Metrics metrics = new Metrics(this, pluginId);
         }
     }
     @Override
@@ -39,7 +39,7 @@ public class CompressionCraft extends JavaPlugin implements SlimefunAddon {
     }
     @Override
     public String getBugTrackerURL() {
-        return "https://github.com/JasperChaseTOQ/CompressionCraft/issues";
+        return "https://github.com/SlimeTraditionalTranslation/CompressionCraft/issues";
     }
 
     @Nonnull

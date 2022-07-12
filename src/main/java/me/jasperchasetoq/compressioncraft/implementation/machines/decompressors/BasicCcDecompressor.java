@@ -84,7 +84,7 @@ public class BasicCcDecompressor extends AContainer implements RecipeDisplayItem
 
     @Override
     public String getInventoryTitle() {
-        return "&eBasic CC Decompressor";
+        return "&e基礎解壓縮器";
     }
 
     @Override
