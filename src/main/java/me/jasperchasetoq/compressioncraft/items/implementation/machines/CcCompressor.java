@@ -93,7 +93,7 @@ public class CcCompressor extends AContainer implements RecipeDisplayItem {
         public String getMachineIdentifier() {return "JC_COMPRESSOR";}
 
         @Override
-        public String getInventoryTitle() {return "&0CompressionCraft's " + getItemName();}
+        public String getInventoryTitle() {return "&0壓縮製造的" + getItemName();}
 
         public BlockBreakHandler onBreak() {
             return new BlockBreakHandler(false, false) {
